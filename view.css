@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+body {
+  font-family: "Poppins";
+  padding: 1rem;
+}
+
+.text h2 {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.text h3 {
+  margin: 1rem 0;
+  font-weight: 20;
+}
