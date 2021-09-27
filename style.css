@@ -5,7 +5,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+a {
+  text-decoration: none;
+  color: inherit;
+}
 body {
   background-color: white;
   color: black;
@@ -18,7 +21,7 @@ body {
   color: inherit;
 }
 .darkmode {
-  background-color: black;
+  background-color: white;
   color: white;
 }
 
@@ -59,7 +62,8 @@ body {
 }
 .firstLevel i {
   /* background-color: rgb(51, 48, 48); */
-  color: white;
+  color: inherit;
+  background-color: inherit;
 }
 
 /* Grids layout  */

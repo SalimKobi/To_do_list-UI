@@ -5,13 +5,23 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button {
+  color: inherit;
+}
 .icons {
   display: flex;
   justify-content: space-between;
   margin-bottom: 1rem;
 }
 
+.icons button {
+  border: none;
+  background-color: inherit;
+}
 body {
   font-family: "Poppins";
   padding: 1rem;
@@ -26,4 +36,21 @@ body {
 .text h3 {
   margin: 1rem 0;
   font-weight: 20;
+}
+
+.darkmode {
+  background-color: black;
+  color: white;
+}
+
+textarea {
+  outline: none;
+  border: none;
+  background-color: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+}
+#titleText {
+  font-size: 1.5rem;
 }
